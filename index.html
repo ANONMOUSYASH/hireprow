@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hireprow Health Care - Healthcare Services</title>
+  <meta name="description" content="Book healthcare services online with Hireprow Health Care. We offer a wide range of healthcare services including general checkups, emergency care, specialist consultations, and more.">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Header/Navbar -->
+  <header class="navbar" id="navbar">
+    <div class="container">
+      <div class="navbar-content">
+        <a href="index.html" class="logo">
+          <i class="fas fa-heartbeat"></i>
+          <span>Hireprow Health</span>
+        </a>
+        
+        <div class="quick-contact">
+          <i class="fas fa-phone"></i>
+          <span>+91 9519040090</span>
+        </div>
+        
+        <nav class="desktop-nav">
+          <a href="#services" class="nav-link">Services</a>
+          <a href="about.html" class="nav-link">About Us</a>
+          <a href="contact.html" class="nav-link">Contact</a>
+          <button class="btn btn-primary book-btn" id="navBookBtn">Book Appointment</button>
+        </nav>
+        
+        <button class="mobile-menu-btn" id="mobileMenuBtn">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </div>
+    
+    <!-- Mobile Navigation -->
+    <div class="mobile-nav" id="mobileNav">
+      <nav class="container">
+        <a href="#services" class="nav-link">Services</a>
+        <a href="about.html" class="nav-link">About Us</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+        <button class="btn btn-primary book-btn" id="mobileBookBtn">Book Appointment</button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-pattern"></div>
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-text animate-left">
+            <h1>Your Health, <span class="accent-text">Our Priority</span></h1>
+            <p>Comprehensive healthcare solutions delivered to your doorstep. Experience personalized care that puts your well-being first.</p>
+            <div class="hero-buttons">
+              <a href="booking.html" class="btn btn-accent">Book Now</a>
+              <a href="#services" class="btn btn-outline-light">Explore Services</a>
+            </div>
+          </div>
+          
+          <div class="hero-image animate-right">
+            <div class="image-blob-1"></div>
+            <div class="image-blob-2"></div>
+            <div class="image-container">
+              <img src="images/healthcare-professional.jpg" alt="Healthcare professional with stethoscope">
+            </div>
+            <div class="badge">
+              <div class="badge-icon">
+                <i class="fas fa-check-circle"></i>
+              </div>
+              <div class="badge-text">
+                <div class="badge-title">Certified Professionals</div>
+                <div class="badge-subtitle">100% verified & trained</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="hero-wave">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+          <path fill="#ffffff" fill-opacity="1" d="M0,96L48,112C96,128,192,160,288,160C384,160,480,128,576,122.7C672,117,768,139,864,149.3C960,160,1056,160,1152,138.7C1248,117,1344,75,1392,53.3L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+        </svg>
+      </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+      <div class="container">
+        <div class="stats-grid">
+          <div class="stat-card" data-stat-value="5000" data-stat-suffix="+">
+            <div class="stat-icon">
+              <i class="fas fa-users"></i>
+            </div>
+            <div class="stat-value">0+</div>
+            <div class="stat-title">Happy Clients</div>
+          </div>
+          
+          <div class="stat-card" data-stat-value="50" data-stat-suffix="+">
+            <div class="stat-icon">
+              <i class="fas fa-award"></i>
+            </div>
+            <div class="stat-value">0+</div>
+            <div class="stat-title">Expert Professionals</div>
+          </div>
+          
+          <div class="stat-card" data-stat-value="10000" data-stat-suffix="+">
+            <div class="stat-icon">
+              <i class="fas fa-check-circle"></i>
+            </div>
+            <div class="stat-value">0+</div>
+            <div class="stat-title">Services Completed</div>
+          </div>
+          
+          <div class="stat-card" data-stat-value="24" data-stat-suffix="/7">
+            <div class="stat-icon">
+              <i class="fas fa-clock"></i>
+            </div>
+            <div class="stat-value">0/7</div>
+            <div class="stat-title">Support Available</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+      <div class="container">
+        <div class="section-header animate-on-scroll">
+          <h2 class="gradient-text">Our Healthcare Services</h2>
+          <div class="section-divider"></div>
+          <p>We offer a comprehensive range of healthcare services designed to meet your specific needs. Our team of experienced professionals is dedicated to providing high-quality care.</p>
+        </div>
+        
+        <div class="services-grid">
+          <div class="service-card animate-on-scroll staggered-animation">
+            <div class="service-icon">
+              <i class="fas fa-heartbeat"></i>
+            </div>
+            <h3>General Checkup</h3>
+            <p>Regular health check-ups to ensure your well-being and early detection of potential health issues.</p>
+            <a href="booking.html" class="btn btn-outline service-btn">
+              Book Now <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+          
+          <div class="service-card animate-on-scroll staggered-animation">
+            <div class="service-icon">
+              <i class="fas fa-ambulance"></i>
+            </div>
+            <h3>Emergency Care</h3>
+            <p>24/7 emergency services with experienced professionals ready to respond to urgent medical needs.</p>
+            <a href="booking.html" class="btn btn-outline service-btn">
+              Book Now <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+          
+          <div class="service-card animate-on-scroll staggered-animation">
+            <div class="service-icon">
+              <i class="fas fa-stethoscope"></i>
+            </div>
+            <h3>Specialist Consultation</h3>
+            <p>Consult with expert doctors across various specialties for personalized medical advice.</p>
+            <a href="booking.html" class="btn btn-outline service-btn">
+              Book Now <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+          
+          <div class="service-card animate-on-scroll staggered-animation">
+            <div class="service-icon">
+              <i class="fas fa-user-nurse"></i>
+            </div>
+            <h3>Patient Care Taker</h3>
+            <p>Professional care takers for patient assistance and support during recovery and daily activities.</p>
+            <a href="booking.html" class="btn btn-outline service-btn">
+              Book Now <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+          
+          <div class="service-card animate-on-scroll staggered-animation">
+            <div class="service-icon">
+              <i class="fas fa-baby"></i>
+            </div>
+            <h3>Baby Care Taker</h3>
+            <p>Experienced babysitters and nannies to care for your little ones with attention and compassion.</p>
+            <a href="booking.html" class="btn btn-outline service-btn">
+              Book Now <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+          
+          <div class="service-card animate-on-scroll staggered-animation">
+            <div class="service-icon">
+              <i class="fas fa-hand-holding-heart"></i>
+            </div>
+            <h3>Elderly Care Taker</h3>
+            <p>Compassionate caregivers for senior citizens providing assistance with daily activities and companionship.</p>
+            <a href="booking.html" class="btn btn-outline service-btn">
+              Book Now <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+        
+        <div class="services-more">
+          <button class="btn btn-primary" id="loadMoreServices">
+            Load More Services
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="how-it-works">
+      <div class="container">
+        <div class="section-header animate-on-scroll">
+          <h2 class="gradient-text">How It Works</h2>
+          <div class="section-divider"></div>
+          <p>Booking healthcare services with Hireprow Health Care is simple and convenient. Follow these easy steps to get the care you need.</p>
+        </div>
+        
+        <div class="steps-grid">
+          <div class="step-card animate-on-scroll">
+            <div class="step-icon">
+              <i class="fas fa-calendar-alt"></i>
+              <div class="step-number">1</div>
+            </div>
+            <h3>Book an Appointment</h3>
+            <p>Fill out our simple booking form with your details, preferred service, date, and time.</p>
+          </div>
+          
+          <div class="step-card animate-on-scroll">
+            <div class="step-icon">
+              <i class="fas fa-phone-alt"></i>
+              <div class="step-number">2</div>
+            </div>
+            <h3>Confirmation Call</h3>
+            <p>Our team will call you to confirm your appointment and discuss any specific requirements.</p>
+          </div>
+          
+          <div class="step-card animate-on-scroll">
+            <div class="step-icon">
+              <i class="fas fa-heart"></i>
+              <div class="step-number">3</div>
+            </div>
+            <h3>Receive Care</h3>
+            <p>Our healthcare professional will arrive at your location at the scheduled time to provide the service.</p>
+          </div>
+        </div>
+        
+        <div class="text-center animate-on-scroll">
+          <a href="booking.html" class="btn btn-primary pulse-animation">Book Your Service Now</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+      <div class="container">
+        <div class="section-header animate-on-scroll">
+          <h2 class="gradient-text">What Our Clients Say</h2>
+          <div class="section-divider"></div>
+          <p>Don't just take our word for it. Here's what our clients have to say about our healthcare services.</p>
+        </div>
+        
+        <div class="testimonial-carousel">
+          <div class="testimonial-container" id="testimonialContainer">
+            <!-- Testimonials will be inserted here by JavaScript -->
+          </div>
+          
+          <button class="carousel-btn prev-btn" id="prevTestimonial">
+            <i class="fas fa-chevron-left"></i>
+          </button>
+          
+          <button class="carousel-btn next-btn" id="nextTestimonial">
+            <i class="fas fa-chevron-right"></i>
+          </button>
+          
+          <div class="carousel-dots" id="testimonialDots">
+            <!-- Dots will be inserted here by JavaScript -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq">
+      <div class="container">
+        <div class="section-header animate-on-scroll">
+          <h2 class="gradient-text">Frequently Asked Questions</h2>
+          <div class="section-divider"></div>
+          <p>Find answers to common questions about our healthcare services.</p>
+        </div>
+        
+        <div class="faq-container animate-on-scroll">
+          <div class="accordion" id="faqAccordion">
+            <!-- FAQ items will be inserted here by JavaScript -->
+          </div>
+          
+          <div class="text-center mt-40">
+            <p>Still have questions?</p>
+            <a href="contact.html" class="btn btn-outline">
+              Contact Us <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+      <div class="container">
+        <div class="cta-grid">
+          <div class="cta-text animate-on-scroll">
+            <h2>Ready to Experience Quality Healthcare?</h2>
+            <p>Book an appointment with our healthcare professionals today and take the first step towards better health and well-being.</p>
+            <div class="cta-buttons">
+              <button class="btn btn-accent" id="ctaBookBtn">
+                <i class="fas fa-calendar-alt"></i> Book Appointment
+              </button>
+              <a href="contact.html" class="btn btn-outline-light">Contact Us</a>
+            </div>
+          </div>
+          
+          <div class="cta-features animate-on-scroll">
+            <div class="feature-card">
+              <div class="feature-icon">
+                <i class="fas fa-clock"></i>
+              </div>
+              <div>
+                <h3>24/7 Availability</h3>
+                <p>Our healthcare services are available round the clock.</p>
+              </div>
+            </div>
+            
+            <div class="feature-card">
+              <div class="feature-icon">
+                <i class="fas fa-shield-alt"></i>
+              </div>
+              <div>
+                <h3>Certified Professionals</h3>
+                <p>All our healthcare providers are certified and experienced.</p>
+              </div>
+            </div>
+            
+            <div class="feature-card">
+              <div class="feature-icon">
+                <i class="fas fa-heart"></i>
+              </div>
+              <div>
+                <h3>Personalized Care</h3>
+                <p>We tailor our services to meet your specific healthcare needs.</p>
+              </div>
+            </div>
+            
+            <div class="special-offer">
+              <div class="offer-text">Special Offer</div>
+              <div class="offer-subtext">20% off first booking</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-about">
+          <div class="footer-logo">
+            <i class="fas fa-heartbeat"></i>
+            <span>Hireprow Health</span>
+          </div>
+          <p>Providing quality healthcare services at your doorstep. Your health is our priority.</p>
+          <div class="social-links">
+            <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+        
+        <div class="footer-links">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="index.html"><i class="fas fa-chevron-right"></i> Home</a></li>
+            <li><a href="about.html"><i class="fas fa-chevron-right"></i> About Us</a></li>
+            <li><a href="#services"><i class="fas fa-chevron-right"></i> Services</a></li>
+            <li><a href="contact.html"><i class="fas fa-chevron-right"></i> Contact Us</a></li>
+            <li><a href="booking.html"><i class="fas fa-chevron-right"></i> Book Appointment</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-services">
+          <h3>Our Services</h3>
+          <ul>
+            <li><a href="#"><i class="fas fa-chevron-right"></i> General Checkup</a></li>
+            <li><a href="#"><i class="fas fa-chevron-right"></i> Emergency Care</a></li>
+            <li><a href="#"><i class="fas fa-chevron-right"></i> Specialist Consultation</a></li>
+            <li><a href="#"><i class="fas fa-chevron-right"></i> Patient Care</a></li>
+            <li><a href="#"><i class="fas fa-chevron-right"></i> Physiotherapy</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-contact">
+          <h3>Contact Information</h3>
+          <ul>
+            <li>
+              <i class="fas fa-map-marker-alt"></i>
+              <span>123 Healthcare Avenue, New Delhi, India</span>
+            </li>
+            <li>
+              <i class="fas fa-phone-alt"></i>
+              <span>+91 9519040090</span>
+            </li>
+            <li>
+              <i class="fas fa-envelope"></i>
+              <span>infohireprow@gmail.com</span>
+            </li>
+          </ul>
+          
+          <div class="newsletter">
+            <h4>Subscribe to our newsletter</h4>
+            <div class="newsletter-form">
+              <input type="email" placeholder="Your email">
+              <button class="btn btn-primary">Subscribe</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; <span id="currentYear"></span> Hireprow Health Care. All rights reserved.</p>
+        <div class="footer-bottom-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">Cookie Policy</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Booking Modal -->
+  <div class="modal" id="bookingModal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="gradient-text">Book an Appointment</h2>
+        <p>Fill out the form below to schedule an appointment with our healthcare professionals.</p>
+        <button class="modal-close" id="closeModal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <form id="bookingForm">
+          <div class="form-group">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" required>
+            <div class="error-message" id="nameError"></div>
+          </div>
+          
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            <div class="error-message" id="emailError"></div>
+          </div>
+          
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" required>
+            <div class="error-message" id="phoneError"></div>
+          </div>
+          
+          <div class="form-group">
+            <label for="service">Service</label>
+            <select id="service" name="service" required>
+              <option value="">Select a service</option>
+              <option value="general-checkup">General Checkup</option>
+              <option value="emergency-care">Emergency Care</option>
+              <option value="specialist-consultation">Specialist Consultation</option>
+              <option value="patient-care">Patient Care Taker</option>
+              <option value="baby-care">Baby Care Taker</option>
+              <option value="elderly-care">Elderly Care Taker</option>
+              <option value="physiotherapy">Physiotherapy Service</option>
+              <option value="maid-service">Maid Service</option>
+              <option value="cooking-service">Cooking Service</option>
+            </select>
+            <div class="error-message" id="serviceError"></div>
+          </div>
+          
+          <div class="form-row">
+            <div class="form-group">
+              <label for="date">Date</label>
+              <input type="date" id="date" name="date" required min="">
+              <div class="error-message" id="dateError"></div>
+            </div>
+            
+            <div class="form-group">
+              <label for="time">Time</label>
+              <select id="time" name="time" required>
+                <option value="">Select a time</option>
+                <option value="09:00">09:00 AM</option>
+                <option value="10:00">10:00 AM</option>
+                <option value="11:00">11:00 AM</option>
+                <option value="12:00">12:00 PM</option>
+                <option value="13:00">01:00 PM</option>
+                <option value="14:00">02:00 PM</option>
+                <option value="15:00">03:00 PM</option>
+                <option value="16:00">04:00 PM</option>
+                <option value="17:00">05:00 PM</option>
+              </select>
+              <div class="error-message" id="timeError"></div>
+            </div>
+          </div>
+          
+          <div class="form-group">
+            <label for="message">Additional Information (Optional)</label>
+            <textarea id="message" name="message" rows="4"></textarea>
+          </div>
+          
+          <button type="submit" class="btn btn-primary btn-block" id="submitBooking">
+            <span id="submitText">Book Appointment</span>
+            <span id="loadingSpinner" class="spinner hidden"></span>
+          </button>
+        </form>
+        
+        <div id="bookingSuccess" class="booking-success hidden">
+          <div class="success-icon">
+            <i class="fas fa-check-circle"></i>
+          </div>
+          <h3>Booking Successful!</h3>
+          <p>Thank you for booking with Hireprow Health Care. We'll contact you shortly to confirm your appointment.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- WhatsApp Button -->
+  <div class="whatsapp-btn" id="whatsappBtn">
+    <div class="whatsapp-tooltip" id="whatsappTooltip">
+      <button class="tooltip-close" id="closeTooltip">
+        <i class="fas fa-times"></i>
+      </button>
+      <p>Need help? Chat with us on WhatsApp for quick assistance!</p>
+    </div>
+    <button class="whatsapp-icon">
+      <i class="fab fa-whatsapp"></i>
+    </button>
+  </div>
+
+  <!-- Scripts -->
+  <script src="js/main.js"></script>
+</body>
+</html>
+
