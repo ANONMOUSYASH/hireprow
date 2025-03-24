@@ -47,7 +47,7 @@ export default function BookingPage() {
                   us know at least 24 hours in advance.
                 </p>
                 <p className="text-gray-700">
-                  For emergency cancellations, please contact us as soon as possible at +91 9519040090.
+                  For emergency cancellations, please contact us as soon as possible at +91 8127658100.
                 </p>
               </div>
 
@@ -57,7 +57,7 @@ export default function BookingPage() {
                   If you have any questions or need assistance with booking, please don't hesitate to contact us:
                 </p>
                 <ul className="space-y-2 text-gray-700">
-                  <li>Phone: +91 9519040090</li>
+                  <li>Phone: +91 8127658100</li>
                   <li>Email: infohireprow@gmail.com</li>
                   <li>WhatsApp: Click the WhatsApp button in the corner to chat with us directly.</li>
                 </ul>
@@ -67,7 +67,7 @@ export default function BookingPage() {
         </div>
       </section>
 
-      <WhatsappButton phoneNumber="+919519040090" />
+      <WhatsappButton phoneNumber="+918127658100" />
     </main>
   )
 }

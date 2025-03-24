@@ -48,7 +48,7 @@ export function Navbar() {
             )}
           >
             <Phone className="h-4 w-4" />
-            <span>+91 9519040090</span>
+            <span>+91 8127658100</span>
           </div>
 
           {/* Desktop Navigation */}

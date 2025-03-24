@@ -28,8 +28,8 @@ export default function ContactPage() {
                     <MapPin className="h-6 w-6 text-blue-600" />
                   </div>
                   <div>
-                    <h3 className="text-xl font-semibold mb-1">Our Location</h3>
-                    <p className="text-gray-600">123 Healthcare Avenue, New Delhi, India</p>
+                    <h3 className="text-xl font-semibold mb-1">Head Office</h3>
+                    <p className="text-gray-600">Mahpur Ground floor, Lucknow Road Fatehpur Uttar Pradesh India - 212601</p>
                   </div>
                 </div>
 
@@ -39,7 +39,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h3 className="text-xl font-semibold mb-1">Phone Number</h3>
-                    <p className="text-gray-600">+91 9519040090</p>
+                    <p className="text-gray-600">+918127658100</p>
                   </div>
                 </div>
 
@@ -125,7 +125,7 @@ export default function ContactPage() {
         </div>
       </section>
 
-      <WhatsappButton phoneNumber="+919519040090" />
+      <WhatsappButton phoneNumber="+918127658100" />
     </main>
   )
 }

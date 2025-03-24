@@ -198,7 +198,7 @@ if (bookingForm) {
 // WhatsApp button
 if (whatsappBtn) {
   whatsappBtn.querySelector(".whatsapp-icon").addEventListener("click", () => {
-    window.open("https://wa.me/919519040090", "_blank")
+    window.open("https://wa.me/918127658100", "_blank")
   })
 
   // Show tooltip after 3 seconds
@@ -417,7 +417,7 @@ const faqs = [
   {
     question: "How do I book a healthcare service?",
     answer:
-      'You can book our healthcare services through our website by clicking the "Book Appointment" button, filling out the form with your details, preferred date, and time. Alternatively, you can call us directly at +91 9519040090.',
+      'You can book our healthcare services through our website by clicking the "Book Appointment" button, filling out the form with your details, preferred date, and time. Alternatively, you can call us directly at +91 8127658100.',
   },
   {
     question: "What areas do you serve?",

@@ -113,7 +113,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <WhatsappButton phoneNumber="+919519040090" />
+      <WhatsappButton phoneNumber="+918127658100" />
     </main>
   )
 }
